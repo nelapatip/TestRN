@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "304306445262",
+    "firebase_url": "https://cortellis-ri.firebaseio.com",
+    "project_id": "cortellis-ri",
+    "storage_bucket": "cortellis-ri.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304306445262:android:69ebd5025c1e6584",
+        "android_client_info": {
+          "package_name": "com.clarivate.cortellis.rimobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304306445262-u976s47ig8hf4fhp25oq8g2v2vni4f7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALnVF4_Ltw1tV6ZqoCHbD0JiQBM3w3P1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304306445262-u976s47ig8hf4fhp25oq8g2v2vni4f7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

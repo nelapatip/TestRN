@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="iVH-gV-YGt">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_cortellis" translatesAutoresizingMaskIntoConstraints="NO" id="rq9-m4-Hyt">
+                    <rect key="frame" x="114.5" y="213" width="251" height="54"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="iVH-gV-YGt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="1Zi-8H-3B7"/>
+                <constraint firstItem="rq9-m4-Hyt" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="5p2-cz-WJT"/>
+                <constraint firstItem="iVH-gV-YGt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Hgl-sw-egp"/>
+                <constraint firstAttribute="bottom" secondItem="iVH-gV-YGt" secondAttribute="bottom" id="TjH-Lv-Ep7"/>
+                <constraint firstAttribute="trailing" secondItem="iVH-gV-YGt" secondAttribute="trailing" id="ete-CK-gfi"/>
+                <constraint firstItem="rq9-m4-Hyt" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="os6-sU-pfh"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="547.82608695652175" y="454.6875"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Image" width="187.5" height="406"/>
+        <image name="logo_cortellis" width="251" height="54"/>
+    </resources>
+</document>
