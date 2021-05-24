@@ -18,9 +18,9 @@
 		2DCD954D1E0B4F2C00145EB5 /* cortellisMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* cortellisMobileTests.m */; };
 		4D796FECA42E745B152F8132 /* libPods-cortellisMobile-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F41C5FA0574FF2F7549B945 /* libPods-cortellisMobile-tvOS.a */; };
 		D449764D74E842B5055F4408 /* libPods-cortellisMobile-cortellisMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F95E604B91F9F2FED0F7378 /* libPods-cortellisMobile-cortellisMobileTests.a */; };
+		DD068579265BDAA4000D2CAA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD068578265BDAA4000D2CAA /* GoogleService-Info.plist */; };
 		DD27FB0225A301C7005C7033 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = DD27FB0125A301C7005C7033 /* main.jsbundle */; };
 		DD43956825A4757900566E4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD43956625A4757800566E4A /* LaunchScreen.xib */; };
-		DD8301DC265B951400024828 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD8301DB265B951400024828 /* GoogleService-Info.plist */; };
 		DDFD59D825B801A4001C7B5B /* SourceSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDFD59D225B801A4001C7B5B /* SourceSansPro-Bold.ttf */; };
 		DDFD59DB25B801C6001C7B5B /* SourceSansPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDFD59DA25B801C6001C7B5B /* SourceSansPro-ExtraLight.ttf */; };
 		DDFD59E025B8028D001C7B5B /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDFD59DC25B8028D001C7B5B /* SourceSansPro-Regular.ttf */; };
@@ -68,10 +68,10 @@
 		9995B145EC67ACB8CFF6BB8A /* Pods-cortellisMobile-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cortellisMobile-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-cortellisMobile-tvOS/Pods-cortellisMobile-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		B4CE70F37837CCB461DB5EAA /* Pods-cortellisMobile-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cortellisMobile-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-cortellisMobile-tvOSTests/Pods-cortellisMobile-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D51A7572E6072EECB70903D0 /* Pods-cortellisMobile-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cortellisMobile-tvOS.release.xcconfig"; path = "Target Support Files/Pods-cortellisMobile-tvOS/Pods-cortellisMobile-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		DD068578265BDAA4000D2CAA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DD27FB0125A301C7005C7033 /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		DD43956725A4757800566E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = cortellisMobile/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DD733F0E25A34323006EAE6C /* cortellisMobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = cortellisMobile.entitlements; path = cortellisMobile/cortellisMobile.entitlements; sourceTree = "<group>"; };
-		DD8301DB265B951400024828 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DDFD59D225B801A4001C7B5B /* SourceSansPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.ttf"; sourceTree = "<group>"; };
 		DDFD59DA25B801C6001C7B5B /* SourceSansPro-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLight.ttf"; sourceTree = "<group>"; };
 		DDFD59DC25B8028D001C7B5B /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 		13B07FAE1A68108700A75B9A /* cortellisMobile */ = {
 			isa = PBXGroup;
 			children = (
-				DD8301DB265B951400024828 /* GoogleService-Info.plist */,
+				DD068578265BDAA4000D2CAA /* GoogleService-Info.plist */,
 				DD733F0E25A34323006EAE6C /* cortellisMobile.entitlements */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -380,7 +380,7 @@
 				DDFD59D825B801A4001C7B5B /* SourceSansPro-Bold.ttf in Resources */,
 				DDFD59E125B8028D001C7B5B /* SourceSansPro-SemiBold.ttf in Resources */,
 				DDFD59E025B8028D001C7B5B /* SourceSansPro-Regular.ttf in Resources */,
-				DD8301DC265B951400024828 /* GoogleService-Info.plist in Resources */,
+				DD068579265BDAA4000D2CAA /* GoogleService-Info.plist in Resources */,
 				DDFD59DB25B801C6001C7B5B /* SourceSansPro-ExtraLight.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
@@ -834,7 +834,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.clarivate.cortellis.rimobileapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clarivate.cortellis.dev;
 				PRODUCT_NAME = cortellisMobile;
 				PROVISIONING_PROFILE_SPECIFIER = CRI_DEVELOPMENT;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -912,7 +912,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.clarivate.cortellis.rimobileapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clarivate.cortellis.dev;
 				PRODUCT_NAME = cortellisMobile;
 				PROVISIONING_PROFILE_SPECIFIER = CRI_DEVELOPMENT;
 				SWIFT_VERSION = 5.0;
