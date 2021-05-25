@@ -14,7 +14,7 @@ import { CONSTANTS } from '../../constants/Constants'
 import NotificationAlertView from '../../utils/NotificationAlertView'
 import fonts from '../../utils/CortellisFonts'
 import BottomBar from '../../utils/BottomBar'
-import RNFetchBlob from 'react-native-fetch-blob';
+import RNFetchBlob from 'rn-fetch-blob';
 import RNFS from 'react-native-fs'
 import RNPrint from 'react-native-print';
 // import Mailer from 'react-native-mail';

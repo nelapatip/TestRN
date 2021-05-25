@@ -9,7 +9,7 @@ import { requestPerson, connectionState } from "../../actions/OfflineActions";
 
 import NavigationHeader from '../../utils/NavigationHeader';
 import fonts from '../../utils/CortellisFonts'
-import RNFetchBlob from 'react-native-fetch-blob';
+import RNFetchBlob from 'rn-fetch-blob';
 import RNPrint from 'react-native-print';
 // import Mailer from 'react-native-mail';
 import RNFS from 'react-native-fs';

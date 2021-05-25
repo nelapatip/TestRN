@@ -249,8 +249,6 @@ PODS:
     - React-cxxreact (= 0.63.4)
     - React-jsi (= 0.63.4)
   - React-jsinspector (0.63.4)
-  - react-native-fetch-blob (0.10.6):
-    - React-Core
   - react-native-mail (6.0.0):
     - React-Core
   - react-native-netinfo (2.0.10):
@@ -325,6 +323,8 @@ PODS:
     - React-Core (= 0.63.4)
     - React-cxxreact (= 0.63.4)
     - React-jsi (= 0.63.4)
+  - rn-fetch-blob (0.12.0):
+    - React-Core
   - RNCAsyncStorage (1.12.1):
     - React-Core
   - RNCMaskedView (0.1.10):
@@ -380,7 +380,6 @@ DEPENDENCIES:
   - React-jsi (from `../node_modules/react-native/ReactCommon/jsi`)
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
-  - react-native-fetch-blob (from `../node_modules/react-native-fetch-blob`)
   - react-native-mail (from `../node_modules/react-native-mail`)
   - "react-native-netinfo (from `../node_modules/@react-native-community/netinfo`)"
   - react-native-pdf (from `../node_modules/react-native-pdf`)
@@ -398,6 +397,7 @@ DEPENDENCIES:
   - React-RCTText (from `../node_modules/react-native/Libraries/Text`)
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - rn-fetch-blob (from `../node_modules/rn-fetch-blob`)
   - "RNCAsyncStorage (from `../node_modules/@react-native-community/async-storage`)"
   - "RNCMaskedView (from `../node_modules/@react-native-community/masked-view`)"
   - "RNCPushNotificationIOS (from `../node_modules/@react-native-community/push-notification-ios`)"
@@ -459,8 +459,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsiexecutor"
   React-jsinspector:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
-  react-native-fetch-blob:
-    :path: "../node_modules/react-native-fetch-blob"
   react-native-mail:
     :path: "../node_modules/react-native-mail"
   react-native-netinfo:
@@ -495,6 +493,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/Libraries/Vibration"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  rn-fetch-blob:
+    :path: "../node_modules/rn-fetch-blob"
   RNCAsyncStorage:
     :path: "../node_modules/@react-native-community/async-storage"
   RNCMaskedView:
@@ -549,7 +549,6 @@ SPEC CHECKSUMS:
   React-jsi: a0418934cf48f25b485631deb27c64dc40fb4c31
   React-jsiexecutor: 93bd528844ad21dc07aab1c67cb10abae6df6949
   React-jsinspector: 58aef7155bc9a9683f5b60b35eccea8722a4f53a
-  react-native-fetch-blob: 0cbdf9764c75d9438c162427395f4bc35a857d5a
   react-native-mail: 88305252f4c3fb0157015ff8a7ac9c41b321a0dd
   react-native-netinfo: c5a291927e79059bf35169097b2ff0db71418134
   react-native-pdf: 3c4f29b56f8916c4be96cad5cdb51ed2542c4b5c
@@ -567,6 +566,7 @@ SPEC CHECKSUMS:
   React-RCTText: 5c51df3f08cb9dedc6e790161195d12bac06101c
   React-RCTVibration: ae4f914cfe8de7d4de95ae1ea6cc8f6315d73d9d
   ReactCommon: 73d79c7039f473b76db6ff7c6b159c478acbbb3b
+  rn-fetch-blob: f065bb7ab7fb48dd002629f8bdcb0336602d3cba
   RNCAsyncStorage: cb9a623793918c6699586281f0b51cbc38f046f9
   RNCMaskedView: f5c7d14d6847b7b44853f7acb6284c1da30a3459
   RNCPushNotificationIOS: 5b1cf9ad2aaa107ecb92d5d2d7005ba521b2b97a

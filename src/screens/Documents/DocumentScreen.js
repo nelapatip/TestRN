@@ -5,7 +5,7 @@ import { COLOR } from '../../constants/Colors'
 import { Normalize, NormalizeLayout } from '../../utils/Scale'
 import { CONSTANTS } from '../../constants/Constants'
 import RelatedView from './RelatedView'
-import RNFetchBlob from 'react-native-fetch-blob';
+import RNFetchBlob from 'rn-fetch-blob';
 import RNFS from 'react-native-fs'
 import  AsyncStorage  from "@react-native-community/async-storage";
 
