@@ -160,7 +160,7 @@ android {
 //            keyAlias MYAPP_RELEASE_KEY_ALIAS
 //            keyPassword MYAPP_RELEASE_KEY_PASSWORD
 
-            storeFile file(System.getenv("HOME") + "/keystores/CortellisRI.keystore")
+            storeFile file(System.getenv("HOME") + "/" + (System.getenv("PROJECT_LOCATION")+ "/app/keystores/CortellisRI.keystore"))
             storePassword System.getenv("BITRISEIO_ANDROID_KEYSTORE_PASSWORD")
             keyAlias System.getenv("BITRISEIO_ANDROID_KEYSTORE_ALIAS")
             keyPassword System.getenv("BITRISEIO_ANDROID_KEYSTORE_PRIVATE_KEY_PASSWORD")
