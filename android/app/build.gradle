@@ -155,11 +155,13 @@ android {
     }
     signingConfigs {
         release {
+            //This is used to release the app locally
 //            storeFile file(MYAPP_RELEASE_STORE_FILE)
 //            storePassword MYAPP_RELEASE_STORE_PASSWORD
 //            keyAlias MYAPP_RELEASE_KEY_ALIAS
 //            keyPassword MYAPP_RELEASE_KEY_PASSWORD
 
+            //This is used to release the app from Bitrise
             storeFile file(System.getenv("GENERIC_FILE_STORAGE") + "/CortellisRI.keystore")
             storePassword System.getenv("BITRISEIO_ANDROID_KEYSTORE_PASSWORD")
             keyAlias System.getenv("BITRISEIO_ANDROID_KEYSTORE_ALIAS")
